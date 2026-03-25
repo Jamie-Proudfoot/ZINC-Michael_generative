@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/smiles_lstm.egg-info/PKG-INFO
+src/smiles_lstm.egg-info/SOURCES.txt
+src/smiles_lstm.egg-info/dependency_links.txt
+src/smiles_lstm.egg-info/top_level.txt
