@@ -13,6 +13,15 @@ These compounds have been subsequently optimized to local minima in potential en
 3. `lumo` (the overall LUMO energy of the molecule, units: eV)
 4. `vibfreq` (the lowest vibrational frequency of the molecule, units: cm⁻¹)
 
+## Representations
+A few different representations were considered here:
+1. `ZINC_Michael_data.csv.gz`: OpenEye canonical SMILES (directly from ZINC-20)
+2. `ZINC_Michael_canon.csv.gz`: RDKit canonical SMILES
+3. `ZINC_Michael_ordered.csv.gz`: SMILES representation with a consistent ordering of R-groups
+4. `ZINC_Michael_fragments.csv.gz`: SMILES representation of R-groups as separate fragments
+   
+(SELFIES representations are also available in all of these files.)
+
 ## LSTM
 - small LSTM from from [dlchem101](https://github.com/rociomer/dl-chem-101/tree/main/03_gen_SMILES_LSTM)  
 
